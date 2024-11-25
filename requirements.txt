@@ -1,5 +1,4 @@
-mininet
-napalm
+networkx
+matplotlib
 scapy
 pyshark
-matplotlib
