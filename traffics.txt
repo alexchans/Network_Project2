@@ -1,0 +1,22 @@
+Filtered UDP Traffic:
+========================================
+Time: 2024-12-01 00:25:08.920790, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.923064, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.925690, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.927809, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.931943, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.948289, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.952851, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.955383, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.959771, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.963656, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.966222, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.968992, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.973044, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.976665, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.979702, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.982192, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.985613, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.988953, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.992312, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
+Time: 2024-12-01 00:25:08.995050, Protocol: UDP, Length: 42, Source: 192.168.1.9, Destination: 192.168.1.1
