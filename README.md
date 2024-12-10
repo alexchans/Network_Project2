@@ -5,9 +5,9 @@
 
 ## Introduction
 
-This project focuses on designing and simulating a multi-tier network architecture for a large-scale enterprise scenario. 
-It evaluates network performance through metrics like throughput, packet loss, jitter, and duration while visualizing the 
-architecture using professional tools. The project also incorporates traffic generation and analysis to replicate real-world 
+This project focuses on designing and simulating a multi-tier network architecture for a large-scale enterprise scenario.
+It evaluates network performance through metrics like throughput, packet loss, jitter, and duration while visualizing the
+architecture using professional tools. The project also incorporates traffic generation and analysis to replicate real-world
 conditions, providing a comprehensive framework for understanding network behavior in complex scenarios.
 
 ---
@@ -16,8 +16,8 @@ conditions, providing a comprehensive framework for understanding network behavi
 
 ### Why Choose This Project?
 
-The increasing reliance on robust, scalable, and secure network infrastructures in enterprises highlights the need for 
-detailed simulations and performance evaluations. This project bridges the gap between theoretical knowledge and practical 
+The increasing reliance on robust, scalable, and secure network infrastructures in enterprises highlights the need for
+detailed simulations and performance evaluations. This project bridges the gap between theoretical knowledge and practical
 implementation by providing a hands-on approach to network design and performance testing.
 
 ### Usefulness
