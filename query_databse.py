@@ -36,8 +36,8 @@ def query_database(protocol=None, min_length=None, max_length=None):
         # Display results
         if results:
             print("\nQuery Results:")
-            for row in results:
-                print(f"Time: {row[0]}, Protocol: {row[1]}, Length: {row[2]}, Source: {row[3]}, Destination: {row[4]}")
+            #for row in results:
+                #print(f"Time: {row[0]}, Protocol: {row[1]}, Length: {row[2]}, Source: {row[3]}, Destination: {row[4]}")
             print(f"\n{len(results)} records found for the given parameters.")
         else:
             print("\nNo records found for the given parameters.")
@@ -58,5 +58,7 @@ if __name__ == "__main__":
     query_database(protocol="TCP", min_length=50)
 
     print("\nQuery 3: Min Length = 50, Max Length = 85")
-    query_database(min_length=50, max_length=500)
+    query_database(min_length=50, max_length=85)
 
+    print("\nQuery 4: Min Length = 52, Max Length = 52")
+    query_database(min_length=52, max_length=52)

@@ -65,7 +65,7 @@ def plot_icmp_metrics(metrics):
     plt.show()
 
 
-def calculate_udp_metrics(file_name, sent_packets):
+def calculate_general_metrics(file_name, sent_packets):
     """
     Calculate throughput, packet loss, duration, and average packet size from a filtered UDP traffic file.
 
@@ -150,7 +150,7 @@ def calculate_icmp_latency(pcap_file):
 
     return latencies
 
-def plot_udp_metrics(metrics):
+def plot_general_metrics(metrics):
     """
     Visualize UDP network performance metrics using subplots with fixed y-limits for specific metrics.
 
@@ -213,29 +213,32 @@ if __name__ == "__main__":
     sent_packets = 5000  # Number of packets sent in traffic generation
 
     # Calculate metrics
-    metrics = calculate_udp_metrics(file_name, sent_packets)
+    general_metrics = calculate_general_metrics(file_name, sent_packets)
     
     # Calculate latencies
     latencies = calculate_icmp_latency("financial_traffics.pcapng")
-    print(f"Calculated ICMP Latencies: {latencies}")
     
-    print("Calculated UDP Metrics:")
-    for k, v in metrics.items():
+    print("Calculated General Metrics:")
+    for k, v in general_metrics.items():
         print(f"{k}: {v}")
 
     # Plot the metrics
-    plot_udp_metrics(metrics)
+    plot_general_metrics(general_metrics)
     
     # Analyze TCP metrics
     tcp_metrics = analyze_tcp_metrics("financial_traffics.pcapng")
-    print("TCP Metrics:", tcp_metrics)
+    print("Calculated TCP Metrics:")
+    for k, v in tcp_metrics.items():
+        print(f"{k}: {v}")
 
     # Visualize TCP metrics
     plot_tcp_metrics(tcp_metrics)
 
     # Analyze ICMP metrics
     icmp_metrics = analyze_icmp_metrics("financial_traffics.pcapng")
-    print("ICMP Metrics:", icmp_metrics)
+    print("Calculated ICMP Metrics:")
+    for k, v in icmp_metrics.items():
+        print(f"{k}: {v}")
 
     # Visualize ICMP metrics
     plot_icmp_metrics(icmp_metrics)

@@ -41,7 +41,8 @@ The multi-tier network replicates a data center infrastructure with:
 
 - **Core Layer**: High-speed backbone switches for interconnection.
 - **Distribution Layer**: Routing and policy enforcement for different departments.
-- **Access Layer**: End-user devices, servers, and workstations.
+- **Access Layer**: Routing and traffic direction to specific floors.
+- **Host Layer**: End-user devices and workstations.
 
 ---
 

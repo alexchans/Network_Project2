@@ -110,12 +110,3 @@ if __name__ == "__main__":
 
     # Extract UDP traffic details
     extract_traffic(pcap_file, output_file, src_ip, dst_ip)
-    
-    # Analyze ICMP metrics
-    icmp_metrics = analyze_icmp_metrics(pcap_file)
-    print("ICMP Metrics:", icmp_metrics)
-
-    # Analyze TCP metrics
-    tcp_metrics = analyze_tcp_metrics(pcap_file)
-    print("TCP Metrics:", tcp_metrics)
-    
